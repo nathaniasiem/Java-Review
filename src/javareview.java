@@ -66,7 +66,13 @@ public class javareview {
         for (int i = 0; i < words.length; i++) {
             System.out.println("Enter a word.");
             words[i] = in.nextLine();
-            
+            //Used to exit from programs
+            if(words[i].equals ("EXIT")){
+                break;
+            }
+            //to find the length of word
+           int wordLength = words[i].length();
+           
         }
     }
 }
