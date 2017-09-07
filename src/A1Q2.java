@@ -28,17 +28,16 @@ public class A1Q2 {
         //create accumulator 
         //find product amongst the 3 numbers
         int product = 1;
-        for (int i=0;i<integers.length;i++){
-        product = product*integers[i];    
+        for (int i = 0; i < integers.length; i++) {
+            product = product * integers[i];
         }
-       System.out.println(product); 
-       //square the product
-        double square = Math.pow(product,2);
-        System.out.println(square);
-       //square root of product
+        System.out.println("The product of these numbers is " + product);
+        //square the product
+        double square = Math.pow(product, 2);
+        System.out.println("When the product is squared it equals to " + square);
+        //square root of product
         double squareroot = Math.sqrt(square);
-        System.out.println(squareroot);
-        
-        
+        System.out.println("The square root is " + squareroot);
+
     }
 }
