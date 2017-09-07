@@ -21,7 +21,6 @@ public class A1Q3 {
 
         //inform user about questionnaire to calculate the break even point
         System.out.println("Promptly,you will be asked a few questions to find the break even point.");
-        
 
         //ask how much the costs for food
         System.out.println("How much are the costs for food?");
