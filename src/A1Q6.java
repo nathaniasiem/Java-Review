@@ -21,9 +21,10 @@ public class A1Q6 {
         //ask user to input number between 50-100
         System.out.println("Enter the number between 50 and 100.");
         int num =input.nextInt();
-        
-        
-            
+        //condition
+        //countsdown from 100
+        for(int i=100;i>=num;i=i-5){
+            System.out.println(i); 
         }
     }
 }
