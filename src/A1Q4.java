@@ -19,8 +19,13 @@ public class A1Q4 {
         Scanner input = new Scanner(System.in);
         //ask user to enter a number from 1-10
         System.out.println("Please enter a number between 1 and 10");
+       
         int num = input.nextInt();
-        
+        if(num>10){
+            
+        }else if (num<1){
+            
+        }
         //create loop to count the number of asterisks user entered
         for (int i = 0; i < num; i++) {
             //print out the asterisks
