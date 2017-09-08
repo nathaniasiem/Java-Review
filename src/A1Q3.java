@@ -45,13 +45,13 @@ public class A1Q3 {
         double sum = food + dj + hRental + decor + wStaff + mCosts;
         System.out.println("The total cost is: " + sum + ".");
 
-        //ask user abouy the price of ticket
-        System.out.println("How much are the price of the tickets?");
-        double ticket = input.nextDouble();
+        //set variable of ticket price
+        double ticket = 35;
 
         //calculate the break even point
         double BEP = sum / ticket;
-        System.out.println("You need to sell " + BEP + " tickets in order to break even.");
+        int bepTicket=(int)Math.round(BEP);
+        System.out.println("You need to sell " + bepTicket + " tickets in order to break even.");
 
     }
 }
