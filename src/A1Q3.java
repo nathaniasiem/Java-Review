@@ -25,18 +25,23 @@ public class A1Q3 {
         //ask how much the costs for food
         System.out.println("How much are the costs for food?");
         double food = input.nextDouble();
+        
         //ask how much the costs for DJ
         System.out.println("How much are the costs for the DJ?");
         double dj = input.nextDouble();
+        
         //ask how much the costs the hall rental
         System.out.println("How much are the costs for the hall rental?");
         double hRental = input.nextDouble();
+        
         //ask how much the costs are for the decorations
         System.out.println("How much are the costs for the decorations?");
         double decor = input.nextDouble();
+        
         //ask how much the costs are for the wait staff
         System.out.println("How much are the costs for the wait staff?");
         double wStaff = input.nextDouble();
+        
         // ask for any additional expenses
         System.out.println("Enter any additional miscellaneous costs.");
         double mCosts = input.nextDouble();
@@ -50,7 +55,7 @@ public class A1Q3 {
 
         //calculate the break even point
         double BEP = sum / ticket;
-        int bepTicket=(int)Math.round(BEP);
+        int bepTicket = (int) Math.round(BEP);
         System.out.println("You need to sell " + bepTicket + " tickets in order to break even.");
 
     }
