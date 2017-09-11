@@ -33,6 +33,7 @@ public class A1Q10 {
             //when user wants to end program
             //condition when they enter exit
             if (word.equals("exit")) {
+                //need to subtract one from count in order to prevent program to count the user prompting "exit"
                 System.out.println("You have entered " + (count - 1) + " word(s).");
                 break;
             }
