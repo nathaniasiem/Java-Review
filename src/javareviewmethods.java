@@ -18,6 +18,12 @@ public class javareviewmethods {
         System.out.println("Hello world "+name);
     }
     
+    public int sumRange(int start, int end){
+        int sum=0;
+        for (int i=start;i<=end;i++)
+            sum=sum+i;
+        return sum;
+    }
     public static void main(String[] args) {
        //create an object to run methods
         javareviewmethods test = new javareviewmethods();
