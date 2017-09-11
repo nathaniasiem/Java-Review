@@ -26,12 +26,18 @@ public class A1Q9 {
         //create variable to keep count of characters
         int total = 0;
         
+        //create loop to go through words
         for(int i =0;i<10;i++){
             System.out.println("Enter a word.");
             words[i]=input.nextLine();
-            int wLength = words.length;
-            System.out.println("");
-            
+                      
+        }for(int i=0;i<10;i++){
+            String term = words[i];
+            int count = term.length();
+            total =count+total;
         }
+        int avg = total/10;
+        
+        System.out.println("The average word length is "+avg+" character(s) long.");
     }
 }
