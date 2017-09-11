@@ -28,12 +28,13 @@ public class A1Q7 {
         //create formula to calculate rate
         while (true) {
             double futrPop = Math.pow(1.014, year);
-
             double popRate = initPop * futrPop;
+            //condition when population exceeds 10 billion
             if (popRate > 10) {
                 System.out.println((year + initYear) + " will be the year that the population will exceed 10 billion ");
                 break;
             }
+            //increae counter for number of years
             year++;
 
         }
