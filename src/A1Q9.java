@@ -25,6 +25,13 @@ public class A1Q9 {
         
         //create variable to keep count of characters
         int total = 0;
+        
+        for(int i =0;i<10;i++){
+            System.out.println("Enter a word.");
+            words[i]=input.nextLine();
+            int wLength = words.length;
+            System.out.println("");
+            
+        }
     }
-    
 }
