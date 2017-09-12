@@ -32,21 +32,27 @@ public class A1Q8 {
         //create variable for year for double
         int year2 = 0;
 
-      
-        //calculate when the savings will double up as well as continue calculating until reach 1000000
+        //calculate when the savings will double up as well as continue calculating until reach 1 million
         while (true) {
-             double yearRate = Math.pow((rate + 1), year);
+            //formula to calculate the rate
+            double yearRate = Math.pow((rate + 1), year);
+            //year increases for million dollars savings
             year++;
-            double newbAcct = yearRate*bAcct;
-            if (newbAcct<=(2*bAcct)) {
-                year2++;   
+            //formula to calculate the savings in account using rate formula
+            double newbAcct = yearRate * bAcct;
+            //condition when the account is doubled
+            if (newbAcct <= (2 * bAcct)) {
+                //year increases for doubled savings
+                year2++;
             }
-            if(newbAcct>=1000000){
-                System.out.println("It will take "+(year-1)+" year(s) to reach 1 million in savings and "+ year2 +" year(s) to double." );
+            //condition when account reaches 1 million dollars
+            if (newbAcct >= 1000000) {
+                //output will give the information collected during the program
+                System.out.println("It will take " + (year - 1) + " year(s) to reach 1 million in savings and " + year2 + " year(s) to double.");
                 break;
             }
-            
+
         }
-       
+
     }
 }
