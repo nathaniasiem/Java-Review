@@ -26,7 +26,7 @@ public class A1Q9 {
         int total = 0;
 
         //create loop to go through words within the array
-        //asks user ot enter a word
+        //asks user to enter a word
         for (int i = 0; i < 10; i++) {
             System.out.println("Enter a word.");
             words[i] = input.nextLine();
